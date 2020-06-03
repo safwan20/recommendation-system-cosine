@@ -36,4 +36,5 @@ def route(id) :
         return "<h1>No Recommendation available </h1>"
 
 
-app.run(debug=True)
+if __name__ == '__main__' :
+    app.run()
